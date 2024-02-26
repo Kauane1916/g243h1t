@@ -1,0 +1,29 @@
+.barra {
+    width: 100%;
+    height: 100px;
+    background-color:rgb(85, 85, 241);
+    text-align: center;
+}
+#dispositivo{
+    font-size: 100%;
+    color: white;
+}
+@media (min-width: 800px){
+    .barra {
+        height: 150%;
+        background-color:mediumturquoise;
+    }
+    #dispositivo{
+        display: none;
+    }
+}
+    @media (min-width: 1228px){
+        .barra{
+            height: 200px;
+            background-color: violet;
+        }
+        
+    }
+    .rodape {
+        text-align: center;
+    }
