@@ -8,10 +8,83 @@
     font-size: 100%;
     color: white;
 }
+.mobile{
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+.tablet {
+    display: none;
+}
+.conteudo {
+    width: 100%;
+    background-color: greenyellow;
+}
+.botoes {
+    width: 100%;
+    height: 30px;
+    background-color: mediumpurple;
+    font-size: 22px;
+    padding: 4px;
+    padding-bottom: 6px;
+}
+.aba1 {
+    width: 100%;
+    height: 400px;
+    background-color: blueviolet;
+    display: none;
+}
+.aba2 {
+    width: 100%;
+    height: 400px;
+    background-color:mediumorchid;
+    display: none;
+}
+.aba1 {
+    width: 100%;
+    height: 400px;
+    background-color:darkviolet;
+    display: none;
+}
+.aba3 {
+    width: 100%;
+    height: 400px;
+    background-color:purple;
+    display: none;
+}
+.aba4 {
+    width: 100%;
+    height: 400px;
+    background-color: rebeccapurple;
+    display: none;
+}
+.desktop {
+    display: none;
+}
+.botoe {
+    width: 24%;
+   }
+
+
 @media (min-width: 800px){
     .barra {
         height: 150%;
         background-color:mediumturquoise;
+    }
+    .mobile { 
+        display: none;
+    }
+    .tablet{
+        display: inline;
+        font-size: 70px;
+        color:darkgreen;
+        text-align: center;
+    }
+    @media (min-width: 1228px){
+        .barra {
+            height: 200px;
+            background-color: deeppink;
+        }  
     }
     #dispositivo{
         display: none;
