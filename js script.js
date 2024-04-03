@@ -48,3 +48,26 @@ function escolher_aba(btn){
       }
     }
 }
+
+let contador = null;
+let inicio = 0;
+let fim = 0;
+function contagem(){
+  if(inicio == fim + 1) contador.clearInverval();
+  else{
+    document.getElementById("valor").innerHTML = inicio;
+    inicio++;
+  }
+}
+
+
+
+
+
+function iniciar(){
+    inicio = document.getElementById("inicio").value;
+    fim = document.getElementById("fim").value;
+    contador = setIterval(() => {
+      contagem();
+    }, 1000);
+}
