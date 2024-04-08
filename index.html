@@ -26,12 +26,18 @@
                <div class="abageral aba1" id="aba1"></div>
                 Hora atual: <span id="h"></span>
               </div>
-               <div class="abageral aba2" id="aba2" ></div>
+               <div class="abageral aba2" id="aba2" >
                 Contar de: <input type="number" id="inicio">
                 Ate: <input type="number" id="fim"> <br>
                 <button onclik="iniciar()">Contar</button>
                 </div>
-               <div class="abageral aba3" id="aba3"></div>
+               <div class="abageral aba3" id="aba3">
+               Despertar as:
+               <input class="set_tempo" type="number" id="hora_d">
+               <input class="set_tempo" type="number" id="min_d">
+               <input class="set_tempo" type="number" id="seg_d">
+             <button onclick="ajustar()">Programar</button>
+            </div>
                <div class="abageral aba4" id="aba4"></div>
           </div>
       </div>
@@ -40,7 +46,7 @@
    Direitos reservados: Kauane e Eduardo.
    </footer>
    <script>
-   escolha_aba(1);
+   escolher_aba(1);
     hora_atual();
     </script>
 </body>
