@@ -94,4 +94,4 @@ function ajustar(){
   document.getElementById("min_d").value;
   document.getElementById("seg_d").value;
   despertar = setInterval(ligar_despertador,1000);
-}
+} 
